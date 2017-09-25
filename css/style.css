@@ -60,6 +60,11 @@ body {
     display: none;
 }
 
+#main_bg {
+    width: 1080px;
+    height: 1920px;
+}
+
 #sec1 {
     position: absolute;
     width: 100%;
