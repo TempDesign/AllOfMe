@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>All of me ~</title>
+
+    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap-player.css" rel="stylesheet">
+        
+        <script src="js/bootstrap-player.js"></script>
+
+    
+    </head>
+    <body>     
+        
+    <section class='visible-xs-*' id='sec1'>  
+        
+        <div class='content visible-xs-*' id='ich'>
+            <div id='ich_i'>
+                <div class='i top' id='ich_i1'></div>
+                <div class='i' id='ich_i2'></div>
+                <div class='i' id='ich_i3'></div>
+                <div class='i bot' id='ich_i4'></div>
+            </div>
+            
+            <div class='visible-xs-*' id='ich_c'>
+                <div class='c top' id='ich_c1'></div>
+                <div class='c' id='ich_c2'></div>
+                <div class='c' id='ich_c3'></div>
+                <div class='c bot2' id='ich_c4'></div>
+                <div class='c' id='top1'></div>
+                <div class='c' id='top2'></div>
+                <div class='c' id='top3'></div>
+                <div class='c' id='bot1'></div>
+                <div class='c' id='bot2'></div>
+                <div class='c' id='bot3'></div>
+            </div>
+            
+            <div class='visible-xs-*' id='ich_h'>
+                <div class='h top left' id='ich_h1'></div>
+                <div class='h left' id='ich_h2'></div>
+                <div class='h left' id='ich_h3'></div>
+                <div class='h bot left' id='ich_h4'></div>       
+                <div class='h top right' id='ich_h5'></div>
+                <div class='h right' id='ich_h6'></div>
+                <div class='h right' id='ich_h7'></div>
+                <div class='h bot right' id='ich_h8'></div>        
+                <div class='h' id='mid1'></div>
+                <div class='h' id='mid2'></div>
+            </div>
+        </div>
+        
+        <div class='content visible-xs-*' id='dich'>
+            <div id='dich_d'>
+                <div class='d' id='dich_d1'></div>
+                <div class='d' id='dich_d2'></div>
+                <div class='d' id='dich_d3'></div>
+                <div class='d' id='dich_d4'></div>    
+                <div class='d' id='top1'></div>
+                <div class='d' id='top2'></div>
+                <div class='d' id='top3'></div>
+                <div class='d' id='top4'></div>     
+                <div class='d' id='bot1'></div>
+                <div class='d' id='bot2'></div>
+                <div class='d' id='bot3'></div>
+                <div class='d' id='bot4'></div>    
+                <div class='d' id='left1'></div>
+                <div class='d' id='left2'></div>
+                <div class='d' id='left3'></div>
+                <div class='d' id='left4'></div>
+            </div>           
+
+            <div class='visible-xs-*' id='dich_i'>
+                <div class='i top' id='dich_i1'></div>
+                <div class='i' id='dich_i2'></div>
+                <div class='i' id='dich_i3'></div>
+                <div class='i bot' id='dich_i4'></div>
+            </div>
+            
+            <div class='visible-xs-*' id='dich_c'>
+                <div class='c top' id='dich_c1'></div>
+                <div class='c' id='dich_c2'></div>
+                <div class='c' id='dich_c3'></div>
+                <div class='c bot2' id='dich_c4'></div>
+                <div class='c' id='top1'></div>
+                <div class='c' id='top2'></div>
+                <div class='c' id='top3'></div>
+                <div class='c' id='bot1'></div>
+                <div class='c' id='bot2'></div>
+                <div class='c' id='bot3'></div>
+            </div>
+            
+            <div class='visible-xs-*' id='dich_h'>
+                <div class='h top left' id='dich_h1'></div>
+                <div class='h left' id='dich_h2'></div>
+                <div class='h left' id='dich_h3'></div>
+                <div class='h bot left' id='dich_h4'></div>       
+                <div class='h top right' id='dich_h5'></div>
+                <div class='h right' id='dich_h6'></div>
+                <div class='h right' id='dich_h7'></div>
+                <div class='h bot right' id='dich_h8'></div>        
+                <div class='h' id='mid1'></div>
+                <div class='h' id='mid2'></div>
+            </div>
+        </div>
+        
+        <div class='visible-xs-*' id='main_background'>  
+            <img src="images/main_bg.png">
+        </div>
+        
+    </section>
+        
+        <audio controls autoplay id='player'>
+			<source src="audio/bg_music.mp3" type="audio/mpeg" />
+		</audio>
+        
+        <button type='submit' id='btn'>
+            <img src='images/btn.png' alt='submit' id='btn_pic'>
+        </button>
+        
+        <div class='visible-xs-*'>
+            <img src='images/heart.png' id='gif_bg'>
+        </div>
+            
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type='text/javascript' src='jquery_corner.js'></script>
+        
+        <script>
+            
+//            $(function(){
+//                $('.c#top1').corner('cc: bite br 26px');
+//                $('.c#bot1').corner('cc: bite tr 26px');
+//                $('.d#top1').corner('cc: bite br 26px');
+//                $('.d#bot1').corner('cc: bite tr 26px');
+//                $('.d#left1').corner('cc: bite bl 28px');
+//                $('.d#left4').corner('cc: bite tl 28px');
+//            });
+            document.getElementById('player').volume = 0.1;
+            
+            
+            $('#btn').on('click', function(){
+                
+                $('#btn').fadeOut(1000);
+                $('#sec1').fadeIn(2000);
+                $('#sec2').fadeIn(2000);
+                
+                $('#ich_i1').animate({'left': '0', 'top': '0'}, 20000);
+                $('#ich_i2').animate({'left': '0', 'top': '0'}, 20000);
+                $('#ich_i3').animate({'left': '0', 'top': '0'}, 20000);
+                $('#ich_i4').animate({'left': '0', 'top': '0'}, 20000);
+                
+                $('#ich_c1').animate({'left': '0', 'top': '-200'}, 20000);
+                $('#ich_c2').animate({'left': '0', 'top': '-200'}, 20000);
+                $('#ich_c3').animate({'left': '0', 'top': '-200'}, 20000);
+                $('#ich_c4').animate({'left': '0', 'top': '-200'}, 20000);
+                $('#ich_c .c#top1').animate({'margin-left': '65', 'top': '-400'}, 20000);
+                $('#ich_c .c#top2').animate({'margin-left': '90', 'top': '-450'}, 20000);
+                $('#ich_c .c#top3').animate({'margin-left': '115', 'top': '-474'}, 20000);
+                $('#ich_c .c#bot1').animate({'margin-left': '65', 'top': '-348'}, 20000);
+                $('#ich_c .c#bot2').animate({'margin-left': '90', 'top': '-372'}, 20000);
+                $('#ich_c .c#bot3').animate({'margin-left': '115', 'top': '-396'}, 20000);
+                
+                $('#ich_h .h#mid1').animate({'margin-left': '180', 'top': '-910'}, 20000);
+                $('#ich_h .h#mid2').animate({'margin-left': '205', 'top': '-935'}, 20000);
+                $('#ich_h .h#ich_h1').animate({'margin-left': '155', 'top': '-595', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h2').animate({'margin-left': '155', 'top': '-595', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h3').animate({'margin-left': '155', 'top': '-595', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h4').animate({'margin-left': '155', 'top': '-595', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h5').animate({'margin-left': '225', 'top': '-795', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h6').animate({'margin-left': '225', 'top': '-795', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h7').animate({'margin-left': '225', 'top': '-795', 'left': '0'}, 20000);
+                $('#ich_h .h#ich_h8').animate({'margin-left': '225', 'top': '-795', 'left': '0'}, 20000);
+                
+                $('#dich_d .d#dich_d1').animate({'top': '0', 'left': '0'}, 20000);
+                $('#dich_d .d#dich_d2').animate({'top': '0', 'left': '0'}, 20000);
+                $('#dich_d .d#dich_d3').animate({'top': '0', 'left': '0'}, 20000);
+                $('#dich_d .d#dich_d4').animate({'top': '0', 'left': '0'}, 20000);
+                $('#dich_d .d#top1').animate({'margin-left': '25', 'top': '-200'}, 20000);
+                $('#dich_d .d#top2').animate({'margin-left': '50', 'top': '-250'}, 20000);
+                $('#dich_d .d#top3').animate({'margin-left': '75', 'top': '-274'}, 20000);
+                $('#dich_d .d#top4').animate({'margin-left': '100', 'top': '-298'}, 20000);
+                $('#dich_d .d#bot1').animate({'margin-left': '25', 'top': '-172'}, 20000);
+                $('#dich_d .d#bot2').animate({'margin-left': '50', 'top': '-196'}, 20000);
+                $('#dich_d .d#bot3').animate({'margin-left': '75', 'top': '-220'}, 20000);
+                $('#dich_d .d#bot4').animate({'margin-left': '100', 'top': '-244'}, 20000);
+                $('#dich_d .d#left1').animate({'margin-left': '75', 'top': '-420'}, 20000);
+                $('#dich_d .d#left2').animate({'margin-left': '104', 'top': '-420'}, 20000);
+                $('#dich_d .d#left3').animate({'margin-left': '104', 'top': '-420'}, 20000);
+                $('#dich_d .d#left4').animate({'margin-left': '75', 'top': '-424'}, 20000);
+                
+                $('#dich_i .i#dich_i1').animate({'top': '-596', 'left': '0'}, 20000);
+                $('#dich_i .i#dich_i2').animate({'top': '-596', 'left': '0'}, 20000);
+                $('#dich_i .i#dich_i3').animate({'top': '-596', 'left': '0'}, 20000);
+                $('#dich_i .i#dich_i4').animate({'top': '-596', 'left': '0'}, 20000);
+                $('#dich_c .c#dich_c1').animate({'top': '-796', 'left': '0'}, 20000);
+                $('#dich_c .c#dich_c2').animate({'top': '-796', 'left': '0'}, 20000);
+                $('#dich_c .c#dich_c3').animate({'top': '-796', 'left': '0'}, 20000);
+                $('#dich_c .c#dich_c4').animate({'top': '-796', 'left': '0'}, 20000);
+                
+                $('#dich_c .c#top1').animate({'top': '-996','margin-left': '205'}, 20000);
+                $('#dich_c .c#top2').animate({'top': '-1046','margin-left': '230'}, 20000);
+                $('#dich_c .c#top3').animate({'top': '-1070','margin-left': '255'}, 20000);
+                $('#dich_c .c#bot1').animate({'top': '-944','margin-left': '205'}, 20000);
+                $('#dich_c .c#bot2').animate({'top': '-968','margin-left': '230'}, 20000);
+                $('#dich_c .c#bot3').animate({'top': '-992','margin-left': '255'}, 20000);
+                
+                $('#dich_h .h#mid1').animate({'margin-left': '320', 'top': '-1502'}, 20000);
+                $('#dich_h .h#mid2').animate({'margin-left': '345', 'top': '-1527'}, 20000);
+                $('#dich_h .h#dich_h1').animate({'margin-left': '295', 'top': '-1192', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h2').animate({'margin-left': '295', 'top': '-1192', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h3').animate({'margin-left': '295', 'top': '-1192', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h4').animate({'margin-left': '295', 'top': '-1192', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h5').animate({'margin-left': '370', 'top': '-1392', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h6').animate({'margin-left': '370', 'top': '-1392', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h7').animate({'margin-left': '370', 'top': '-1392', 'left': '0'}, 20000);
+                $('#dich_h .h#dich_h8').animate({'margin-left': '370', 'top': '-1392', 'left': '0'}, 20000);
+                
+                $(function(){
+                    setTimeout(function(){
+                        $('#gif_bg').fadeIn(3000);
+                        $('#gif').fadeIn(5000);
+                    },19000);
+                });
+                
+                $(function(){
+                    setTimeout(function(){
+                        $('.cartop').fadeIn();
+                        $('.carbot').fadeIn();
+                    },21000);
+                });
+            });
+            
+            $(function(){
+                $('button#btn').hover(function(){
+                   $('#btn_pic').animate({'opacity': '1', 'width': '80', 'height': '80', 'margin-left': '-40', 'margin-top': '-40'}); 
+                }, function(){
+                    $('#btn_pic').animate({'opacity': '0.5', 'width': '50', 'height': '50', 'margin-left': '-25', 'margin-top': '-25'});
+                });
+            });
+        </script>
+        
+        
+    
+    </body>
+</html>
